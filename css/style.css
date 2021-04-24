@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color:hsl(0, 0%, 100%)
+}
+
+.attribution a {
+  /* color: hsl(228, 45%, 44%); */
+  color: hsl(0, 0%, 100%)
+}
+
+body {
+  background-color:  hsl(233, 47%, 7%);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.card-component {
+  /* background-color: hsl(244, 38%, 16%) */
+  /* border: 2px solid black; */
+  width: 1050px;
+  height: 380px;
+  margin: auto;
+  margin-top: 220px;
+  border-radius: 10px;
+  clear:both;
+  background-color: hsl(244, 38%, 16%);
+
+
+
+
+
+}
+
+.text-area {
+  width: 522px;
+  height: 380px;
+  /* border: 2px solid black; */
+  display: inline-block;
+  border-left: 10px;
+  /* padding: 20px 30px;  */
+  overflow: auto;
+
+}
+.text-area h1{
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  padding: 37px 71px;
+  font-size: 35px;
+  overflow: auto;
+}
+.text-area p{
+  color:hsla(0, 0%, 100%, 0.75);
+  padding: 0px 70px;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+.numbers{
+  color:hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+.company{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+.stats-card{
+  width:280px;
+  height:100px;
+}
+.numbers{
+  margin: 40px 0px -34px 67px;
+}
+.company{
+  margin: 11px 0px 0px 67px;
+  font-size: 10px;
+}
+.images {
+  width: 524px;
+  height: 380px;
+  float: right;
+  /* border: 2px solid black; */
+  display: inline-block;
+  border-right: 10px;
+  overflow: auto;
+  opacity: 0.5;
+  background-color: hsl(277, 64%, 61%);
+}
+
+img {
+  width: 525px;
+  height: 380px;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.5;
+}
